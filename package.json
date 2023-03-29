@@ -1,0 +1,12 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "client": "cd client && yarn run dev",
+    "server": "nodemon server/server",
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
+  }
+}
